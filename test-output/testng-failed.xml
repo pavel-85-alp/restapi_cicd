@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test Basics 1(failed)">
+    <classes>
+      <class name="restAssuredDemo.demoRestAssuredTest.demoTestRestAssuredTesting">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- restAssuredDemo.demoRestAssuredTest.demoTestRestAssuredTesting -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

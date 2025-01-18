@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<test name="Test Basics 1">
+<classes>
+<class name="restAssuredDemo.demoRestAssuredTest.demoTestRestAssuredTesting" />
+</classes>
+</test>
+  <test thread-count="5" name="Test">
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
