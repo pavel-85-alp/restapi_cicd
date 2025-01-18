@@ -75,5 +75,21 @@ public class demoTestRestAssuredTesting {
 		System.out.println("***********************************");
 		
 	}
+	
+	@Test
+	public void test5() {
+		Response response = RestAssured.get("https://reqres.in/api/users/6");
+		
+		Assert.assertEquals(response.getStatusCode(), 200);
+		JsonPath jsonPathEvaluator = response.jsonPath(); 	
+		String email = jsonPathEvaluator.get("data.email");
+		String lname = jsonPathEvaluator.get("data.last_name");
+		System.out.println("Start of test5...");
+		System.out.println("Email id is: "+email);
+		System.out.println("Last Name is: "+lname);
+		System.out.println("End of test5...");
+		System.out.println("***********************************");
+		
+	}
 
 }
